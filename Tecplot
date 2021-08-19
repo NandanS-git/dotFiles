@@ -1,0 +1,4 @@
+Tecplot commands..
+
+# To batch convert .dat files to .szplt in Windows
+for %i in (*.dat) do start /wait tec360 "%i" -o "szplt\%i.szplt"
